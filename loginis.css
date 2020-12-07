@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 26%;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 8px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+.navlist{
+    width: 100%;
+     background-color: goldenrod;
+    display: flex;
+     justify-content: start;
+     align-items: center;
+   
+}
+.navlist li{
+    list-style: none;
+     padding: 26px 30px; 
+     color: white;
+  
+   
+
+}
+.navlist li a:hover{
+    text-decoration: none;
+    color: grey;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+     
+    
+
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(img/space.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.mylogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 18px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    position: sticky;
+
+}
+.btn-sm{
+   padding: 6px 10px;
+   vertical-align: middle;
+   font-size: 16px;
+
+}
+.btn-dark{
+    color: grey;
+    border: 2px solid grey;
+    
+}
+.form{
+    padding:0px;
+    max-width: 1200px;
+    margin: 150px auto;
+     
+}
+.form-input{
+    margin: 20px 0px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    padding: 5px 11px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.textfooter{
+    text-align: center;
+    padding: 10px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 1140px){
+                      .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all o.7s ease-out;
+        height: 447px;
+    }
+   .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 72px;
+    }
+    .v-class{
+        opacity: 0;
+       
+    }
+     .buttons{
+        text-align: center;
+    }
+}

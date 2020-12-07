@@ -1,0 +1,106 @@
+*{
+margin:0;
+padding:0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 26%;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 8px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+.navlist{
+    width: 100%;
+     background-color: goldenrod;
+    display: flex;
+     justify-content: start;
+     align-items: center;
+   
+}
+.navlist li{
+    list-style: none;
+     padding: 26px 30px; 
+     color: white;
+  
+   
+
+}
+.navlist li a:hover{
+    text-decoration: none;
+    color: grey;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+     
+    
+
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(img/space.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+.aboutname{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 80%;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+}
+
+
+.sectiontag{
+    padding: 16px 0px;
+}
+
+.sectionsubtag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-big{
+    font-size: 41px;
+    text-align: center;
+   color: white;
+
+
+}
+
+.text-small{
+    font-size: 20px;
+   color: goldenrod;
+   
+    
+
+}
+
+.textfooter{
+    text-align: center;
+    padding: 10px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+
+
+
